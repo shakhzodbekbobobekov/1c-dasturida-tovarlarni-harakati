@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="AccumulationRegister.ТоварларРегистрыНакопления" id="ccc42f7b-da38-46d8-aee5-217cecbdf198" configVersion="7134a6c29c25c14690a2ca5396b13b8800000000">
+			<Metadata name="AccumulationRegister.ТоварларРегистрыНакопления.Dimension.Товар" id="277b9472-c0a1-4a10-9326-08f5de8710c1"/>
+			<Metadata name="AccumulationRegister.ТоварларРегистрыНакопления.Resource.Нархи" id="3b350c09-6d5a-4e85-97cd-002967de734e"/>
+			<Metadata name="AccumulationRegister.ТоварларРегистрыНакопления.Resource.Суммаси" id="8ac8b05e-03a8-41ab-9729-7cdeb0750569"/>
+			<Metadata name="AccumulationRegister.ТоварларРегистрыНакопления.Resource.ЖамиСуммаси" id="b6e2624e-d973-4de0-a716-9c16847ffbe1"/>
+			<Metadata name="AccumulationRegister.ТоварларРегистрыНакопления.Resource.Сони" id="d913984f-004e-4fcb-81da-5a4b71460854"/>
+		</Metadata>
+		<Metadata name="Catalog.ТоварларСправочники" id="2f890355-19d2-47a0-a3f8-1f9aaef22079" configVersion="85368254db12a04ea7ecbf29e3ec4b0f00000000"/>
+		<Metadata name="Catalog.ТоварларСправочники.Form.ФормаЭлемента" id="c2c884d0-2255-455c-9b43-27358d5b8a7f" configVersion="ec862bc4ce1bdd408bb5c9b41fd17fb000000000"/>
+		<Metadata name="Catalog.ТоварларСправочники.Form.ФормаЭлемента.Form" id="c2c884d0-2255-455c-9b43-27358d5b8a7f.0" configVersion="1b45d48ee6655d40a688d3bbae20679000000000"/>
+		<Metadata name="Configuration.Конфигурация" id="21281c26-bb43-44c5-a4ec-cd4745318af2" configVersion="33de1d218d2f8442a06687a7be30c89b00000000"/>
+		<Metadata name="Document.ТоварКиримДокумент" id="9a388b77-d8e1-4972-8e7d-936af1239e3a" configVersion="37f56cc3ab217244bb4eb0ba83c59b4f00000000">
+			<Metadata name="Document.ТоварКиримДокумент.TabularSection.Руйхат" id="173b7a86-5385-4ba8-b8ab-721d20e665d8"/>
+			<Metadata name="Document.ТоварКиримДокумент.Attribute.ЖамиСумма" id="4cad91ee-950d-4996-b955-66e9b361511a"/>
+			<Metadata name="Document.ТоварКиримДокумент.TabularSection.Руйхат.Attribute.Нархи" id="519b72a9-b15f-4555-8377-168c9a60015c"/>
+			<Metadata name="Document.ТоварКиримДокумент.TabularSection.Руйхат.Attribute.Сони" id="b05c1de0-b4a8-4080-ac40-644d95a81379"/>
+			<Metadata name="Document.ТоварКиримДокумент.TabularSection.Руйхат.Attribute.Суммаси" id="cf58714f-bcdd-43b8-b8d3-bf18f121722d"/>
+			<Metadata name="Document.ТоварКиримДокумент.TabularSection.Руйхат.Attribute.ТоварНоми" id="f8af7726-a686-4f30-a639-dea4d7dcef91"/>
+		</Metadata>
+		<Metadata name="Document.ТоварКиримДокумент.Form.ФормаДокумента" id="24d3754c-8e1c-42fd-bc4c-d09c817c2608" configVersion="b7a4a6067282164b863c8370687d673a00000000"/>
+		<Metadata name="Document.ТоварКиримДокумент.Form.ФормаДокумента.Form" id="24d3754c-8e1c-42fd-bc4c-d09c817c2608.0" configVersion="81e1824b33266743a1d8e3177bd5d4ea00000000"/>
+		<Metadata name="Document.ТоварКиримДокумент.ObjectModule" id="9a388b77-d8e1-4972-8e7d-936af1239e3a.0" configVersion="32802c618135a549a140eccb1e243dcd00000000"/>
+		<Metadata name="Language.Русский" id="c4e32194-c675-4878-a944-7e8099440d57" configVersion="b5f76e91fd54dc49ab7f3bce7998735000000000"/>
+		<Metadata name="Subsystem.Жами" id="5f2e7792-a7c8-4924-bfae-aff36251be95" configVersion="576f8640cebdd043962656c4b7e44d0e00000000"/>
+		<Metadata name="Subsystem.Жами.CommandInterface" id="5f2e7792-a7c8-4924-bfae-aff36251be95.1" configVersion="3dca740bd191fb4dae42452ae51aee0400000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

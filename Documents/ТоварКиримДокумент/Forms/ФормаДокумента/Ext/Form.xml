@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<Table name="Руйхат" id="7">
+			<Representation>List</Representation>
+			<Footer>true</Footer>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.Руйхат</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="РуйхатКонтекстноеМеню" id="8"/>
+			<AutoCommandBar name="РуйхатКоманднаяПанель" id="9"/>
+			<ExtendedTooltip name="РуйхатРасширеннаяПодсказка" id="10"/>
+			<SearchStringAddition name="РуйхатСтрокаПоиска" id="11">
+				<AdditionSource>
+					<Item>Руйхат</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="РуйхатСтрокаПоискаКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="РуйхатСтрокаПоискаРасширеннаяПодсказка" id="13"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="РуйхатСостояниеПросмотра" id="14">
+				<AdditionSource>
+					<Item>Руйхат</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="РуйхатСостояниеПросмотраКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="РуйхатСостояниеПросмотраРасширеннаяПодсказка" id="16"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="РуйхатУправлениеПоиском" id="17">
+				<AdditionSource>
+					<Item>Руйхат</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="РуйхатУправлениеПоискомКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="РуйхатУправлениеПоискомРасширеннаяПодсказка" id="19"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="РуйхатНомерСтроки" id="20">
+					<DataPath>Объект.Руйхат.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РуйхатНомерСтрокиКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="РуйхатНомерСтрокиРасширеннаяПодсказка" id="22"/>
+				</LabelField>
+				<InputField name="РуйхатТоварНоми" id="23">
+					<DataPath>Объект.Руйхат.ТоварНоми</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РуйхатТоварНомиКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="РуйхатТоварНомиРасширеннаяПодсказка" id="25"/>
+				</InputField>
+				<InputField name="РуйхатСони" id="26">
+					<DataPath>Объект.Руйхат.Сони</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РуйхатСониКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="РуйхатСониРасширеннаяПодсказка" id="28"/>
+					<Events>
+						<Event name="OnChange">РуйхатСониПриИзменении</Event>
+						<Event name="StartListChoice">РуйхатСониНачалоВыбораИзСписка</Event>
+					</Events>
+				</InputField>
+				<InputField name="РуйхатНархи" id="29">
+					<DataPath>Объект.Руйхат.Нархи</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РуйхатНархиКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="РуйхатНархиРасширеннаяПодсказка" id="31"/>
+					<Events>
+						<Event name="OnChange">РуйхатНархиПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="РуйхатСуммаси" id="32">
+					<DataPath>Объект.Руйхат.Суммаси</DataPath>
+					<Enabled>false</Enabled>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РуйхатСуммасиКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="РуйхатСуммасиРасширеннаяПодсказка" id="34"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<InputField name="ЖамиСумма" id="35">
+			<DataPath>Объект.ЖамиСумма</DataPath>
+			<Enabled>false</Enabled>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="ЖамиСуммаКонтекстноеМеню" id="36"/>
+			<ExtendedTooltip name="ЖамиСуммаРасширеннаяПодсказка" id="37"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ТоварКиримДокумент</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>
